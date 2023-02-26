@@ -9,4 +9,10 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Reference Include="System.IO.Ports">
+      <HintPath>..\..\..\..\Downloads\System.IO.Ports.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
 </Project>

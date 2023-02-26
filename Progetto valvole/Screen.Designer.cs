@@ -39,7 +39,7 @@
             // 
             this.listView1.Location = new System.Drawing.Point(12, 12);
             this.listView1.Name = "listView1";
-            this.listView1.Size = new System.Drawing.Size(476, 258);
+            this.listView1.Size = new System.Drawing.Size(500, 337);
             this.listView1.TabIndex = 0;
             this.listView1.UseCompatibleStateImageBehavior = false;
             this.listView1.SelectedIndexChanged += new System.EventHandler(this.listView1_SelectedIndexChanged);
@@ -48,7 +48,7 @@
             // 
             this.buttonSTART.BackColor = System.Drawing.Color.LawnGreen;
             this.buttonSTART.Font = new System.Drawing.Font("Segoe UI", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.buttonSTART.Location = new System.Drawing.Point(12, 276);
+            this.buttonSTART.Location = new System.Drawing.Point(518, 12);
             this.buttonSTART.Name = "buttonSTART";
             this.buttonSTART.Size = new System.Drawing.Size(145, 72);
             this.buttonSTART.TabIndex = 1;
@@ -60,7 +60,7 @@
             // 
             this.buttonSTOP.BackColor = System.Drawing.Color.Tomato;
             this.buttonSTOP.Font = new System.Drawing.Font("Segoe UI", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.buttonSTOP.Location = new System.Drawing.Point(343, 276);
+            this.buttonSTOP.Location = new System.Drawing.Point(518, 108);
             this.buttonSTOP.Name = "buttonSTOP";
             this.buttonSTOP.Size = new System.Drawing.Size(145, 72);
             this.buttonSTOP.TabIndex = 2;
@@ -77,7 +77,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(497, 361);
+            this.ClientSize = new System.Drawing.Size(671, 361);
             this.Controls.Add(this.buttonSTOP);
             this.Controls.Add(this.buttonSTART);
             this.Controls.Add(this.listView1);

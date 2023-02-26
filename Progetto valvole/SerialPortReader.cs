@@ -15,6 +15,7 @@ namespace prototipo
             get { return data; }
             set { data= value; }
         }
+
         public SerialPortReader()
         {
             Data = new FileMenager();
